@@ -5,7 +5,7 @@ metadata:
   name: 8-demo-kustomize-git-bb-app
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 1m40s
   path: ./manifests
   prune: true
   sourceRef:
